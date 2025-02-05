@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 20px 0;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  
+  .sidebar a.active {
+    background-color: #d4006f;
+  }
+  
+  .form-container {
+    flex-grow: 1;
+    padding: 80px;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .form {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .form input, .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  

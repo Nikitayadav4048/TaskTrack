@@ -1,0 +1,26 @@
+body{
+  background-color: rgb(58, 56, 56);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+  }
+  
+  .icon {
+    margin-right: 8px;
+    color: white;
+  }
+  .head{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
